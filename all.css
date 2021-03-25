@@ -1,0 +1,109 @@
+.obustr_skvazhin {
+  width: 100%;
+  padding: 14px 8px 18px;
+  margin-bottom: 20px;
+}
+.obustr_skvazhin .h3 {
+  text-align: center;
+}
+@media (min-width: 600px) {
+  .obustr_skvazhin {
+    display: grid;
+    grid-auto-flow: column;
+    align-items: stretch;
+    grid-gap: 0 20px;
+    padding: 20px 24px 20px 20px;
+    margin-bottom: 24px;
+  }
+  .obustr_skvazhin .h3 {
+    grid-column: 2/3;
+    text-align: left;
+    margin-bottom: 24px;
+    font-size: 18px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #0d274d;
+  }
+  .obustr_skvazhin_img {
+    position: relative;
+    grid-row: 1/4;
+    margin-right: 20px;
+  }
+}
+.obustr_skvazhin:last-child {
+  margin-bottom: 0;
+}
+@media (max-width: 600px) {
+  .obustr_skvazhin img {
+    width: 100%;
+  }
+}
+@media (min-width: 992px) {
+  .obustr_skvazhin {
+    grid-template-columns: max-content 1fr;
+    grid-template-rows: max-content 2fr 1fr;
+  }
+}
+.obustr_skvazhin .ul_two_circle {
+  width: 100%;
+  margin-bottom: 20px;
+}
+@media (min-width: 1249px) {
+  .obustr_skvazhin .ul_two_circle {
+    width: 82%;
+    margin-bottom: 0;
+  }
+}
+.obustr_skvazhin .ul_two_circle li {
+  width: 100%;
+  font-size: 15px;
+  line-height: 21px;
+  color: #282828;
+  margin-bottom: 8px;
+}
+.obustr_skvazhin .ul_two_circle li:last-child {
+  margin-bottom: 0;
+}
+@media (min-width: 1249px) {
+  .obustr_skvazhin .ul_two_circle li {
+    width: 44%;
+    margin-bottom: 0;
+  }
+}
+.obustr_skvazhin_right {
+  display: flex;
+  flex-direction: column;
+  grid-row: span 2;
+  justify-content: space-between;
+}
+.obustr_skvazhin .good_more {
+  border-radius: 0;
+}
+@media (max-width: 992px) {
+  .obustr_skvazhin .good_more {
+    font-size: 16px;
+  }
+}
+.obustr_skvazhin_price {
+  text-align: center;
+}
+.obustr_skvazhin_price p {
+  margin-bottom: 15px;
+}
+@media (min-width: 992px) {
+  .obustr_skvazhin_price {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  .obustr_skvazhin_price p {
+    margin-bottom: 0px;
+  }
+}
+
+.obustr_skvazhin {
+  width: 60%;
+  background: #fff;
+  box-shadow: 0 2px 14px rgb(0 0 0 / 14%);
+}
